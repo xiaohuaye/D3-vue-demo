@@ -29,6 +29,24 @@ const constantRoutes: Array<RouteRecordRaw> = [
       pass: true,
     },
   },
+  {
+    path: "/force",
+    component: () => import("@/views/force.vue"),
+    name: "force",
+    meta: {
+      descript: "力学图demo",
+      pass: true,
+    },
+  },
+  {
+    path: "/quadtree",
+    component: () => import("@/views/quadtree.vue"),
+    name: "quadtree",
+    meta: {
+      descript: "四叉树demo",
+      pass: true,
+    },
+  },
 ];
 
 const asyncRoutes: Array<RouteRecordRaw> = [];
