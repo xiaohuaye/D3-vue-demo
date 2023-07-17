@@ -55,6 +55,7 @@ onMounted(() => {
 
 <template>
   <div class="gettingStartedDemo">
+    <p>坐标轴</p>
     <div>
       <a href="https://d3js.org/getting-started" target="_blank"
         >https://d3js.org/getting-started</a

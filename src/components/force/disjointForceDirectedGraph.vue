@@ -131,6 +131,7 @@ onMounted(() => {
 
 <template>
   <div class="disjointForceDirectedGraphWrapperDemo">
+    <p>力学模型demo</p>
     <div>
       <a
         href="https://observablehq.com/@d3/disjoint-force-directed-graph/2?intent=fork"

@@ -47,6 +47,15 @@ const constantRoutes: Array<RouteRecordRaw> = [
       pass: true,
     },
   },
+  {
+    path: "/largeDatasets",
+    component: () => import("@/views/largeDatasets.vue"),
+    name: "largeDatasets",
+    meta: {
+      descript: "8000点折线图性能测试",
+      pass: true,
+    },
+  },
 ];
 
 const asyncRoutes: Array<RouteRecordRaw> = [];
